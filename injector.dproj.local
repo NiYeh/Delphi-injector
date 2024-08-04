@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/03 20:31:59.000.362,=D:\Programming\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/08/03 20:32:37.000.442,D:\Programming\Delphi\Code\項目開發\注入器\main.pas=D:\Programming\Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/08/03 20:32:37.000.442,D:\Programming\Delphi\Code\項目開發\注入器\main.dfm=D:\Programming\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2024/08/03 20:33:03.000.391,D:\Programming\Delphi\Code\項目開發\注入器\injector.dproj=D:\Programming\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

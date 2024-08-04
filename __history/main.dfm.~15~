@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #27880#20837#22120' v1.0'
+  ClientHeight = 307
+  ClientWidth = 416
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object dll_lab: TLabel
+    Left = 208
+    Top = 142
+    Width = 138
+    Height = 19
+    Caption = #23578#26410#29554#21462'dll'#25991#20214#36335#24465
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Microsoft JhengHei UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object name_lab: TLabel
+    Left = 208
+    Top = 89
+    Width = 138
+    Height = 17
+    Caption = #23578#26410#29554#21462#31243#24207#21517#31281
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Microsoft JhengHei UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object dllpathBtn: TButton
+    Left = 8
+    Top = 128
+    Width = 169
+    Height = 33
+    Caption = #29554#21462'dll'#25991#20214#36335#24465
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Microsoft YaHei'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = dllpathBtnClick
+  end
+  object injector_btn: TButton
+    Left = 104
+    Top = 208
+    Width = 185
+    Height = 57
+    Caption = #27880#20837
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'Microsoft YaHei'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = injector_btnClick
+  end
+  object name_edit: TEdit
+    Left = 8
+    Top = 81
+    Width = 169
+    Height = 25
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Microsoft JhengHei UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    Text = #35531#36664#20837#31243#24207#21517#31281
+  end
+  object dlgOpen: TOpenDialog
+    Left = 104
+    Top = 8
+  end
+  object Tmr1: TTimer
+    Interval = 500
+    OnTimer = Tmr1Timer
+    Left = 384
+    Top = 240
+  end
+end
